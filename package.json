@@ -1,0 +1,37 @@
+{
+  "name": "ats-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/divya1829/ats-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/divya1829/ats-backend/issues"
+  },
+  "homepage": "https://github.com/divya1829/ats-backend#readme",
+  "dependencies": {
+    "@prisma/client": "^7.1.0",
+    "bcryptjs": "^3.0.3",
+    "bullmq": "^5.66.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "ioredis": "^5.8.2",
+    "jsonwebtoken": "^9.0.3",
+    "nodemailer": "^7.0.11",
+    "prisma": "^7.1.0",
+    "swagger-ui-express": "^5.0.1",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
